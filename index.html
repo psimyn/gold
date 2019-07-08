@@ -1,0 +1,64 @@
+<head>
+<style>
+@font-face {
+  font-family: "TechnaSans";
+  src: url("TechnaSans-Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TechnaSans', Arial, sans-serif;
+  background-color: #fcfcfc;
+}
+
+footer {
+  background-color: #fcfcfc;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #425d86;
+}
+
+.pull-right {
+  float: right;
+}
+
+img {
+  min-height: 100vmin;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.price {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 2em;
+}
+
+@media screen and (min-height: 400px) {
+  .price {
+    font-size: calc(2.3em + (3 - 2.3) * ((100vw - 21em)/(35 - 21)));
+    top: calc(2em + (3 - 2) * ((100vw - 21em)/(30 - 21)));
+    left: calc(2em + (3 - 2) * ((100vw - 21em)/(30 - 21)));
+  }
+}
+</style>
+</head>
+<body>
+  <img src="crissy-jarvis-HiBUL9tVInQ-unsplash.jpg">
+  <span class="price">
+    <span>$1376</span>
+    <small>USD</small>
+    <br>
+    <small>/ounce</small>
+  </span>
+  <footer>
+    <div class="pull-right">Last updated 2018-07-08 - 0200</div>
+    <div>A <a href="https://duud.com">duud</a> project</div>
+    Photo by <a href="https://unsplash.com/@crissyjarvis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Crissy Jarvis</a> on <a href="https://unsplash.com/search/photos/gold-bullion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </footer>
+</body>
